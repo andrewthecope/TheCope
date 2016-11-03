@@ -1,0 +1,182 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin:0px;
+  font-family: "ff-tisa-web-pro",serif;
+  color: #1C2329;
+  text-align:center;
+  background-color:white;
+  height:100%;
+}
+
+header {
+  margin-top: 15px;
+  text-align: center;
+  width: 230px;
+  min-height: 100%; /* Full height */
+  position: absolute; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+
+}
+
+.inline {
+  display:inline-block;
+}
+
+.content {
+  margin-left:250px;
+  margin-top:10px;
+  font-weight: 500;
+  min-height:100%;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:95px;
+  box-sizing: border-box;
+}
+
+.topbar {
+  height:15px;
+  width:100%;
+  background-color:#0085FF;
+  position:absolute;
+}
+
+#wrapper {
+  max-width:700px;
+  text-align:left;
+}
+
+header h1 {
+  font-size: 3em;
+  line-height:40px;
+  color:#0085FF;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+header h1:hover {
+  color:black;
+}
+
+header h3 {
+  font-weight: 500;
+  font-size:1em;
+  line-height:20px;
+  color:#2E3A43;
+}
+
+nav {
+  margin-top:64px;
+
+}
+
+nav h3 {
+    font-weight: 600;
+    color:#0085FF;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+nav h3:hover {
+  color:black;
+}
+
+
+
+/* Posts */
+
+.postTitle {
+  font-size:1.8em;
+  text-decoration: none;
+  color:black;
+}
+
+.subTitle {
+  color:#A4A4A4;
+  margin:0;
+}
+
+blockquote {
+  border-left:3px solid black;
+  padding-left: 8px;
+}
+
+code {
+  background-color:#E1E3E4;
+}
+
+a {
+  text-decoration:none;
+  color:#0085FF;
+}
+
+a:hover {
+  color:black;
+}
+
+hr {
+  opacity:0;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* footer */
+footer {
+  box-sizing:border-box;
+  border-top: 15px #0085FF solid;
+  margin-top:-95px;
+  height:60px;
+  padding:0;
+  background-color:white;
+  position:relative;
+  z-index:10000;
+}
+
+footer p {
+  display:inline-block;
+}
+
+
+
+
+  /* styles for less than 700px (mobile, ect) */
+@media only screen and (max-width: 700px) {
+
+
+  header {
+    width: 100%;
+    min-height: 247px; 
+    position: relative; 
+    margin-top:0;
+  }
+  
+  nav {
+    margin-top: 25px;
+  }
+  
+  nav h3 {
+    display:inline-block;
+    margin: 0 10px;
+  }
+  
+  .content {
+    margin:0;
+  }
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+

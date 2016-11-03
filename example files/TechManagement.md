@@ -1,0 +1,7 @@
+@@ Title=Technology Management
+@@ Date=February 2, 2016
+@@ Description=Hey guys, read my website.
+
+Growing up in the Bay Area, I have always been intrigued by the stories of Silicon Valley start-ups. At one point in High School, the local librarian determined that I had read every book the library had on the subject. These books contain fascinating stories of ideas, failure, and great success, but I feel they all miss an important element. In the stories of Mark Zuckerberg, Elon Musk, or Steve Jobs, the tough lessons about creating a large organization is all but left out. One paragraph might tell of two entrepreneurs making computers in a garage, fast forwarding to the next that describes a corporation with 10,000 employees. Those missing paragraphs that bridge the gap from garage to corporation are the ones I want to read, or perhaps the ones I am driven to gain the knowledge to write.
+
+This expansion from start-up to an efficiently operating organization of people, poses a set of complex, human challenges, yet the complexities of management is often all but brushed over. How did Reed Hastings learn to raise venture capital for Netflix? How did Marisa Mayer set up a system of accountability in management at Yahoo? These important details are passed over in order to focus on a simplified story of product development.
