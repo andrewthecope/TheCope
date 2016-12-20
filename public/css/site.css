@@ -4,11 +4,15 @@ html {
 
 body {
   margin:0px;
-  font-family: "ff-tisa-web-pro",serif;
+  font-family: "ff-tisa-web-pro",sans-serif;
   color: #1C2329;
   text-align:center;
   background-color:white;
   height:100%;
+}
+
+p {
+  font-family: "tk-freight-sans-pro",sans-serif;
 }
 
 header {
