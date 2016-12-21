@@ -4,11 +4,20 @@ html {
 
 body {
   margin:0px;
-  font-family: "ff-tisa-web-pro",sans-serif;
+  /*font-family: "freight-sans-pro", serif;*/
+  font-family: "adelle-sans", serif;
   color: #1C2329;
   text-align:center;
   background-color:white;
   height:100%;
+}
+
+p, li {
+  line-height:1.8em;
+}
+
+li {
+  margin-bottom:10px;
 }
 
 
@@ -89,9 +98,10 @@ nav h3:hover {
 /* Posts */
 
 .postTitle {
-  font-size:1.8em;
+  font-size:1.4em;
   text-decoration: none;
   color:black;
+  font-weight:900;
 }
 
 .subTitle {
