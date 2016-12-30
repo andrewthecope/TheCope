@@ -5,7 +5,7 @@ For those just tuning in, I am currently working to adding support for dialogues
 
 Next up on our journey, Memorize Mode. This should be a piece of cake (I'm knocking the wood surface of my desk as I type this).
 
-Memorize Mode is comprised of horizontal scrolling cards that I internally call MemorizeCards. All I need to do is add the q-line to each MemorizeCard. The bluring and reveal code will not change. 
+Memorize Mode is comprised of horizontal scrolling cards that I internally call MemorizeCards. All I need to do is add the q-line to each MemorizeCard. The blurring and reveal code will not change. 
 
 I have some big plans for the next step, Test Mode, so hopefully I can finish this up quickly. 
 
