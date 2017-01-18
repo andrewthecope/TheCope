@@ -3,7 +3,7 @@
 
 A few days ago, I began the work to add dialogue support in Learn Your Lines.  I receive an email requesting this feature about once a week and I think it will be fun to make. So I’m doing it. 
 
-In general, dialogues are simpler than regular text.  Memorizing a dialogue is similar to using flashcards. There is a q-line and a line, a front and a back.  The actual memorization part naturally fits the study modes that already exist in the app. The big problem is input.  Inputting the text from a script into the app is tricky. A lot of friction is involved with requiring a user to type hundreds of lines, especially on a touch-screen. 
+In general, dialogues are simpler than regular text.  Memorizing a dialogue is similar to using flashcards. There is a cue cue line and a line, a front and a back.  The actual memorization part naturally fits the study modes that already exist in the app. The big problem is input.  Inputting the text from a script into the app is tricky. A lot of friction is involved with requiring a user to type hundreds of lines, especially on a touch-screen. 
 
 Here are some of my options:
 1. Do my best to create a UI for an input screen and hope that people find it good enough.

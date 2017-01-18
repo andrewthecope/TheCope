@@ -3,13 +3,13 @@
 
 The time has come. I have (more or less) finished the [Input Screen](http://www.thecope.net/2016/12/20/dialogues-input), [Read Mode](http://www.thecope.net/2016/12/27/dialogues-read), and [Memorize Mode](http://www.thecope.net/2016/12/30/dialogues-memorize) for Learn Your Lines for Dialogues. In the grand scheme of things, none of this was terribly complicated. I build upon things that already existed within Learn Your Lines. My idea for Test Mode is more involved. Here's what I plan to do.
 
-I view Test Mode as the virtual equivalent to the friend you sucker into helping run lines. This friend will read the q-line, wait for you to say the line, and correct you if you are wrong. Your friend is nice for helping you, but your friend is human and has limited patience. 
+I view Test Mode as the virtual equivalent to the friend you sucker into helping run lines. This friend will read the cue line, wait for you to say the line, and correct you if you are wrong. Your friend is nice for helping you, but your friend is human and has limited patience. 
 
 Computers are not human and have unlimited patience. This is the opportunity I see in Test Mode. 
 
 So there's three tasks that Test Mode needs to be able to do:
 
-1. **Read the q-line.** Easy enough. I've already implemented the text-to-speech stuff. 
+1. **Read the cue line.** Easy enough. I've already implemented the text-to-speech stuff. 
 
 2. **Listen to you say the line and correct you if you are wrong.** This one is far tougher. 
 
