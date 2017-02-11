@@ -24,7 +24,7 @@ li {
 header {
   margin-top: 15px;
   text-align: center;
-  width: 230px;
+  width: 240px;
   min-height: 100%; /* Full height */
   position: absolute; /* Make it stick, even on scroll */
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
@@ -69,6 +69,11 @@ header h1 {
 
 header h1:hover {
   color:black;
+}
+
+header h2 {
+  font-size:1.1em;
+  font-weight:500;
 }
 
 header h3 {
