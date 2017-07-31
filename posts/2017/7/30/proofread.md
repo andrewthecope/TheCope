@@ -23,5 +23,15 @@ I spent some time yesterday thinking about these three challenges, and I have so
 
 I’ll report back. 
 
+# Update #1 (Sunday 8:30pm)
+Well that took longer than I expected. I was probably naive for thinking I could finish this project by the end of the day, but it’s not my fault. Some issues I ran into:
 
+1. I thought it would be a good idea to download the XCode 9 beta. This delayed me for hours. 
+2. The Apple Pencil APIs are much more complicated than I anticipated. I started by watching the [2016 WWDC video](https://developer.apple.com/videos/play/wwdc2016/220/)  on the subject. The nice man on the video made it all sounds so simple. Looking at Apple’s [example project](https://developer.apple.com/library/content/samplecode/SpeedSketch/Introduction/Intro.html), things are more complicated. With another hour or so of trial and error, I ended up with a working drawing engine for the app. 
+
+<img src="proofread/phase1.jpg" width=60%>
+
+Next on the agenda is recognizing the markup symbols. I don’t foresee this being particularly easy. 
+
+I’ll report back. Might go to sleep at some point…
 
