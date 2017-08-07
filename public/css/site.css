@@ -74,35 +74,7 @@ footer p {
 
 
 
-  /* styles for less than 700px (mobile, ect) */
-@media only screen and (max-width: 700px) {
 
-
-  header {
-    width: 100%;
-    min-height: 247px; 
-    position: relative; 
-    margin-top:0;
-  }
-  
-  nav {
-    margin-top: 25px;
-  }
-  
-  nav h3 {
-    display:inline-block;
-    margin: 0 10px;
-  }
-  
-  .content {
-    margin:0;
-  }
-    
-    
-    
-    
-    
-}
 
 
 
@@ -253,3 +225,36 @@ footer img {
   float:right;
   font-size:30px;
 }
+
+
+
+
+  /* styles for less than 700px (mobile, ect) */
+@media only screen and (max-width: 700px) {
+
+
+  header {
+    width: 100%;
+    min-height: 247px; 
+    position: relative; 
+    margin-top:0;
+  }
+  
+
+  
+  nav h3 {
+    display:inline-block;
+    margin: 0 10px;
+  }
+  
+  .content {
+    margin:0;
+  }
+    
+    
+    
+    
+    
+}
+
+
