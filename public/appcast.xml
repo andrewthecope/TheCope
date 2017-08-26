@@ -1,0 +1,25 @@
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+  <title>Phantom Changelog</title>
+  <link>
+    https://thecope.herokuapp.com/appcast.xml/appcast.xml
+  </link>
+  <description>Most recent changes with links to updates.</description>
+  <language>en</language>
+  <item>
+    <title>Version 1.3</title>
+    <description>
+    <![CDATA[
+      <ul> 
+        <li>Version 1.1 of software (from server)</li> 
+        <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li> 
+        <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li> 
+        <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li> 
+      </ul>
+    ]]>
+    </description>
+    <pubDate>Thurs, 7 Aug 2017 15:20:11 +0000</pubDate>
+    <enclosure url="https://thecope.herokuapp.com/Phantom13.zip" sparkle:version="1.3" length="107758" type="application/octet-stream" sparkle:dsaSignature="MCwCFHqoKCkoZ/4YX0+mRS+n3PY0upeMAhRVmbH7UoOaVklYYnRpAuRumgPzrQ=="/>
+  </item>
+  </channel>
+</rss>

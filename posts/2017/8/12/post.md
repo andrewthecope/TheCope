@@ -6,9 +6,9 @@ If recent rumors are to be believed, Apple is releasing a new Apple Watch with c
 
 ## The Feed Machine
 What do we use our phones for? Everything, I know. But what are the main tasks smartphones excel at? I thought it over, and here’s my list:
-	1. Communication (Delivered by notifications)
-	2. Camera
-	3. Feeds (social media)
+1. Communication (Delivered by notifications)
+2. Camera
+3. Feeds (social media)
 
 It is clear that the smartphone is well-suited for these tasks because the smartphone largely enabled the preponderance of them. The issue, I’d argue, is that the smartphone is too good at these tasks.  I’m as much of a tech-optimist as the next person, but I will admit that receiving a single notification instantly breaks even my most productive streak. I’ve spent whole afternoons with friends staring at my phone screen. I recently took a trip to Europe and spent a huge amount of time taking pictures that I may never look at again. Social media feeds are a particular problem for me.
 
