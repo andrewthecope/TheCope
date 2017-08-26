@@ -9,3 +9,11 @@ Today's app idea is called "MetroGnome", a haptic metronome app for the Apple Wa
 Watch extensions for metronome apps do exist, so first things first, I'm going to check them out.
 
 I'll be back.
+
+Update: 2:34pm
+
+Well crap. Some app reviews seem to indicate that the metronome watch apps don't work when the watch screen is off. I'd imagine that this is a limitation of watchOS. For battery saving, I'd assume.
+
+I'll look for a workaround. Maybe this has changed in watchOS 4? Maybe there's some hack I can devise? 
+
+Off I go on a journey to save the Blitz.
