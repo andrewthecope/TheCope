@@ -10,6 +10,7 @@ Watch extensions for metronome apps do exist, so first things first, I'm going t
 
 I'll be back.
 
+
 Update: 2:34pm
 
 Well crap. Some app reviews seem to indicate that the metronome watch apps don't work when the watch screen is off. I'd imagine that this is a limitation of watchOS. For battery saving, I'd assume.
@@ -17,3 +18,15 @@ Well crap. Some app reviews seem to indicate that the metronome watch apps don't
 I'll look for a workaround. Maybe this has changed in watchOS 4? Maybe there's some hack I can devise? 
 
 Off I go on a journey to save the Blitz.
+
+
+Update: 2:34pm
+
+Crisis averted. It isn't immediately obvious, but watchOS allows background haptics during a current workout session. Enabling background haptics in watchOS, is a three step process:
+
+1. Enable HealthKit in the app capabilities.
+2. In the watch extension plist, add the WKBackgroundModes  key with a value of an array containing a workout-processing string.
+3. In the watch extension plist, add the UIBackgroundModes key with a value of an array containing a audio string.
+
+Would this pass app review to use for a metronome app? Probably not. But for a Blitz, it's a great solution.
+
