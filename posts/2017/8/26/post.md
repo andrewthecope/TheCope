@@ -1,4 +1,4 @@
-@@Title=# Saturday Blitz: MetroGnome
+@@Title=Saturday Blitz: MetroGnome
 @@Date=Saturday, 26 August 2017
 I'm not particularly busy today, so I figure it's time to BLITZ.
 
@@ -30,7 +30,26 @@ Crisis averted. It isn't immediately obvious, but watchOS allows background hapt
 
 Would this pass app review to use for a metronome app? Probably not. But for a Blitz, it's a great solution.
 
-
 ### Update: 4:05pm
 
-Ok, here's comes the fun part: actually making the app. 
+Ok, here's comes the fun part: actually making the app.  The app has 4 amazing features:
+
+* A great name: "MetroGnome"
+* Haptic metronome 
+* Tap watch screen to set tempo
+* Increment tempo with Digital Crown
+
+Conveniently enough, I have already named my XCode project and set up the haptics, so only two more features to go.
+
+First I'll tackle the tempo setting feature. I want to be able to tap my watch a specific pace and have the metronome calculate the BPM for me.  To do this, I will time the length of time it takes for the user to tap 4 times, and set the appropriate BPM. 
+
+The math involved in calculating beats per minute took an embarrasingly long time for me to figure out, but here it is:
+
+```
+4 Taps   60 sec   4 taps
+------ * ------ = ------ = # Beats per Minute
+# Sec.   1 min.   # min
+```
+
+
+Here I go.
