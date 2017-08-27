@@ -53,3 +53,7 @@ The math involved in calculating beats per minute took an embarrasingly long tim
 
 
 Here I go.
+
+### Update: 8:51pm
+
+Ok, sorry. Got delayed drinking wine with my mom. But I'm back.
