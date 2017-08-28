@@ -1,5 +1,7 @@
 @@Title=Inspiration from Ben Franklin
 @@Date=Monday, 28 August 2017
+
+
 I just started reading Walter Isaacson's [biography of Benjamin Franklin](https://www.amazon.com/Benjamin-Franklin-American-Walter-Isaacson/dp/074325807X). I'm only 50 pages into the 600-something page book, but one passage has already struck me:
 
 > In reaction [to his undeveloped writing style], the precocious young teen devised for himself a self-improvement course with the help of a volume of *The Spectator* he found.
