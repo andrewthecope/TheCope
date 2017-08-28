@@ -208,7 +208,7 @@ nav h3 {
   height:40px;
 }
 
-p {
+p, li, blockquote {
   font-size:1.2em;
   line-height:1.8em;
 }
@@ -226,7 +226,39 @@ footer img {
   font-size:30px;
 }
 
+pre {
+        font-family: "Courier 10 Pitch", Courier, monospace;
+        font-size: 95%;
+        line-height: 140%;
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -o-pre-wrap;
+         display: block;
+        padding: 0.5em 1em;
+        border: 1px solid rgba(74, 145,227,0.5);
+        background: rgba(74, 145,227,0.1);
+  }       
+  
 
+    
+    code {
+        font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+        font-size: 95%;
+        line-height: 140%;
+        white-space: pre;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -o-pre-wrap;
+        background: rgba(74, 145,227,0.1);
+        border: 1px solid rgba(74, 145,227,0.5);
+        padding:0 0.3em;
+    }
+    
+  pre code {
+	  background: none;
+	  border: 0;
+  }
 
 
   /* styles for less than 700px (mobile, ect) */
