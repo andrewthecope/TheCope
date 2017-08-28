@@ -11,27 +11,3 @@ I just started reading Walter Isaacson's [biography of Benjamin Franklin](https:
 I find this so remarkable. Benjamin Franklin, who is in the cannon of great American minds, saw limits to his writing abilities when he was young. To tackle this, he self-prescribed lessons to strengthen his persuasive writing skills. 
 
 I've never felt terribly confident in my writing abilities, and I shouldn't be satisfied by that.  I want to try Franklin's self-improvement course. I'll let you know how it goes. 
-
-
- 
- 
- 
- 
- 
-
-
-
----
-Posted at thecope.net/2017/8/28/franklin
-
-
----
-Posted at thecope.net/2017/8/28/franklin
-
-
----
-Posted at thecope.net/2017/8/28/franklin
-
-
----
-Posted at thecope.net/2017/8/28/franklin
