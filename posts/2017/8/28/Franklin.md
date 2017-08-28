@@ -10,6 +10,7 @@ I find this so remarkable. Benjamin Franklin, who is in the cannon of great Amer
 
 I've never felt terribly confident in my writing abilities, and I shouldn't be satisfied by that.  I want to try Franklin's self-improvement course. I'll let you know how it goes. 
 
+
  
  
  
