@@ -32,6 +32,7 @@ body {
 blockquote {
   border-left:3px solid #0085FF;
   padding-left: 8px;
+  color:#666666;
 }
 
 code {
