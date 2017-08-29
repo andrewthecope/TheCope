@@ -6,8 +6,6 @@ I just started reading Walter Isaacson's [biography of Benjamin Franklin](https:
 
 > In reaction [to his undeveloped writing style], the precocious young teen devised for himself a self-improvement course with the help of a volume of *The Spectator* he found.
 >
-> ...
->
 > As part of his self-improvement course, Franklin read the essays, took brief notes, and laid them aside for a few days. Then he tried to recreate the essay in his own words, after which he compared his composition to the original. Sometimes he would jumble up the notes he took, so that he would have to figure out on his own the best order to build the essay's argument.
 
 I find this so remarkable. Benjamin Franklin, who was by all accounts super smart, saw limits to his writing abilities when he was young. To tackle this, he self-prescribed lessons to strengthen his persuasive writing skills. 
