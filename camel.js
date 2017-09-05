@@ -359,7 +359,16 @@ function loadHeaderFooter(file, completion) {
         if (exists) {
             fs.readFile(templateRoot + file, {encoding: 'UTF8'}, function (error, data) {
                 if (!error) {
+                  if (file == "header.html") {
+                    var regex = /(<!--PostScript:Here-->)(.*)(<!--PostScript:End-->)/;
+                    fs.readFile(templateRoot + "workingon.html", {encoding: 'UTF8'}, function (error, workTag) {
+                      data = data.replace(regex, "$1" + workTag + "$3"); 
+                      completion(data);
+                    });
+                    
+                  } else {
                     completion(data);
+                  }
                 }
             });
         }
