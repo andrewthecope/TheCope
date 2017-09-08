@@ -1,4 +1,4 @@
-@@Title=iOS Automation: What I'm Working On
+@@Title=iOS Automation: "What I'm Working On Now"
 @@Date=Thursday, 07 September 2017
 
 
@@ -18,3 +18,4 @@ Pythonista's `ui` framework is quite impressive. I created the widget ui with a 
   And that's it. There's almost certainly a better way to achieve the same result using fancier web technologies, but I like my static website and I love a good overcomplicated workflow. 
   
   I know I'm a little late to the game here, but this automation stuff is so fun. I only wish it were accessible to more people who could dream up workflows without the complications of url-schemes and OS limitations. Someday soon I hope. 
+
