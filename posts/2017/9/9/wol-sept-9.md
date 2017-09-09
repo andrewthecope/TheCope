@@ -14,3 +14,10 @@ But before I start, I have an internal struggle. Should I go on a run this morni
 
 ## 9:53am
 I'm going on the run. I have never wanted to do something less in my life, but it's the right thing to do. I'll just sprint to get this over with. 
+
+## 11:49am
+Well that took forever. I'm mostly delayed because I am fat and slow, but also because I spent some time watching the news coverage of Hurricane Irma. This definitely defines me as a bad person, but I love a good hurricane. I also love the ridiculousness of cable news on such occasions, with reporters standing in 100mph winds yelling stuff like "YES ANDERSON, WINDS ARE REALLY PICKING UP NOW". 
+
+But I digress. 
+
+I am going to work on some design mockups for the podcast guide and report back.
