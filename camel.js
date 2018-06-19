@@ -18,15 +18,26 @@ require('dotenv').load({silent: true});
 var express = require('express');
 var bodyParser = require('body-parser');
 var compress = require('compression');
-var http = require('http');              
+var http = require('http');
 var fs = require('fs');
 var qfs = require('q-io/fs');
 var sugar = require('sugar');
 var _ = require('underscore');
+var hljs = require('highlight.js');
 var markdownit = require('markdown-it')({
 	html: true,
 	xhtmlOut: true,
-	typographer: true
+	typographer: true,
+	langPrefix:   'language-',
+	highlight: function (str, lang) {
+    if (lang && hljs.getLanguage(lang)) {
+      try {
+        return hljs.highlight(lang, str).value;
+      } catch (__) {}
+    }
+
+    return ''; // use external default escaping
+  },
 }).use(require('markdown-it-footnote'));
 var Rss = require('rss');
 var Handlebars = require('handlebars');
@@ -126,13 +137,13 @@ function getLinesFromData(data) {
 	var lines = data.lines();
 	// Extract the metadata
 	var metadataEnds = _.findIndex(lines, function (line) {
-		 return line.trim().length === 0; 
+		 return line.trim().length === 0;
 	});
 	metadataEnds = metadataEnds === -1 ? lines.length : metadataEnds;
-	
-	return { 
-		metadata: lines.slice(0, metadataEnds), 
-		body: lines.slice(metadataEnds).join('\n') 
+
+	return {
+		metadata: lines.slice(0, metadataEnds),
+		body: lines.slice(metadataEnds).join('\n')
 	};
 }
 
@@ -268,7 +279,7 @@ function allPostsSortedAndGrouped(completion) {
                 if (new Date(key) > new Date()) {
                   return;
                 }
-				
+
                 // Get all the filenames...
                 var articleFiles = groupedFiles[key];
                 var articles = [];
@@ -360,12 +371,12 @@ function loadHeaderFooter(file, completion) {
             fs.readFile(templateRoot + file, {encoding: 'UTF8'}, function (error, data) {
                 if (!error) {
                   if (file == "header.html") {
-                    var regex = /(<!--PostScript:Here-->)(.*)(<!--PostScript:End-->)/;
-                    fs.readFile(templateRoot + "workingon.html", {encoding: 'UTF8'}, function (error, workTag) {
-                      data = data.replace(regex, "$1" + workTag + "$3"); 
+                    var regex = /(<!--PinnedPosts:Here-->)(.*)(<!--PinnedPosts:End-->)/;
+                    fs.readFile(templateRoot + "pinned.html", {encoding: 'UTF8'}, function (error, workTag) {
+											data = data.replace(regex, "$1" + workTag + "$3");
                       completion(data);
                     });
-                    
+
                   } else {
                     completion(data);
                   }
@@ -718,6 +729,7 @@ app.get('/page/:page', function (request, response) {
 		response.redirect('/');
 		return;
 	}
+
 
 	// Do the standard route handler. Cough up a cached page if possible.
     baseRouteHandler('/page/' + page, function (cachedData) {
