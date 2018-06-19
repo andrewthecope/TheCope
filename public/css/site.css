@@ -111,7 +111,7 @@ footer p {
   /* margin:auto; */
   max-width:750px;
   margin: 0 auto;
-  margin-top:-60px;
+  margin-top:-63px;
 }
 
 #innerWrapper {
@@ -311,5 +311,9 @@ pre {
 
   header .bar {
     margin-top:-10px;
+  }
+
+  #wrapper {
+    margin-top:-80px;
   }
 }
