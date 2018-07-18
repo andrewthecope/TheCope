@@ -67,6 +67,11 @@ code {
   background-color:#E1E3E4;
 }
 
+.permalink {
+  font-size: 1.4em;
+  margin-left: 6px;
+}
+
 a {
   text-decoration:none;
   color:#0085FF;
