@@ -6,7 +6,7 @@ I spent a couple hours yesterday attempting to resolve some performance issues w
 **TLDR:   The problem is Swift. Write the `NSTextStorage` in Objective-C.  Explanation and code sample below.**
 
 ## The Problem
-As of iOS 7, text is rendered in standard UIKit controls via a system called TextKit. The framework allows for all kinds of fancy things including, of interest to my project, a way to style text attributes based on the text syntax. Like a very simple version of a code syntax highlighting but based on arbitrary syntactical rules. 
+As of iOS 7, text is rendered in standard UIKit controls via a system called TextKit. The framework allows for all kinds of fancy things including, of interest to my project, a way to style text attributes based on the text syntax. Like code syntax highlighting but based on arbitrary syntactical rules. 
 
 Looking it up, the proper way to achieve this is by subclassing `NSTextStorage` of a `UITextView`.  There's lot's of [online tutorials](https://www.raywenderlich.com/50151/text-kit-tutorial) explaining how to do this. 
 
