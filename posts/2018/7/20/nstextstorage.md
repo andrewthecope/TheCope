@@ -30,7 +30,7 @@ There's perhaps more to it, but that's all I could think of given my relatively 
 
 #import <UIKit/UIKit.h>
 
-@interface ImportTextStorage : NSTextStorage
+@interface CustomTextStorage : NSTextStorage
 
 @end
 
