@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="55px" viewBox="0 0 57 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad" transform="translate(-711.000000, 0.000000)">
+            <g id="Group" transform="translate(711.000000, -2.000000)">
+                <path d="M12.819426,-5.17920154e-16 L44.180574,5.17920154e-16 C48.6381677,-3.00926524e-16 50.2545989,0.464128056 51.8842285,1.33566352 C53.5138581,2.20719898 54.792801,3.48614185 55.6643365,5.11577148 C56.5358719,6.74540111 57,8.3618323 57,12.819426 L57,44.180574 C57,48.6381677 56.5358719,50.2545989 55.6643365,51.8842285 C54.792801,53.5138581 53.5138581,54.792801 51.8842285,55.6643365 C50.2545989,56.5358719 48.6381677,57 44.180574,57 L12.819426,57 C8.3618323,57 6.74540111,56.5358719 5.11577148,55.6643365 C3.48614185,54.792801 2.20719898,53.5138581 1.33566352,51.8842285 C0.464128056,50.2545989 2.00617683e-16,48.6381677 -3.45280103e-16,44.180574 L3.45280103e-16,12.819426 C-2.00617683e-16,8.3618323 0.464128056,6.74540111 1.33566352,5.11577148 C2.20719898,3.48614185 3.48614185,2.20719898 5.11577148,1.33566352 C6.74540111,0.464128056 8.3618323,3.00926524e-16 12.819426,-5.17920154e-16 Z" id="Rectangle" fill="#E44232"></path>
+                <polygon id="Rectangle" fill="#E44232" points="0 0 15 0 15 15 0 15"></polygon>
+                <polygon id="Rectangle" fill="#E44232" points="42 0 57 0 57 15 42 15"></polygon>
+                <polygon id="Rectangle" fill="#E44232" points="42 42 57 42 57 57 42 57"></polygon>
+                <g id="Group-2" transform="translate(12.000000, 13.000000)" stroke="#FFFFFF">
+                    <path d="M4.5,6 L29.0396856,6" id="Line" stroke-width="5" stroke-linecap="round"></path>
+                    <path d="M4.5,17.5 L29.0396856,17.5" id="Line" stroke-width="5" stroke-linecap="round"></path>
+                    <path d="M4.5,28.5 L29.0396856,28.5" id="Line" stroke-width="5" stroke-linecap="round"></path>
+                    <rect id="Rectangle" stroke-width="3" opacity="0" x="1.5" y="1.5" width="30" height="30"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
